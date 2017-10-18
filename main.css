@@ -1,0 +1,389 @@
+/*ESTILO CANCHA*/
+.cancha{
+
+	position: relative;
+	top: 6em;
+	left: 18em;
+     width: 55%; 
+     height: 350px; 
+     background-color: #8BB27C
+}
+
+.borde{
+	position: absolute;
+	width: 95%;
+	height: 89%;
+	border: 0.3em solid white; 
+	top:0.9em;
+	left: 0.9em;
+}
+
+.centro {
+     width: 10em;
+     height: 10em;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 0.3em solid white; 
+     position: absolute;
+     top:5.45em;
+     left: 17em;
+}
+
+.porteria1{
+	position: absolute;
+	width: 15%;
+	height: 50%;
+	border: 0.3em solid white; 
+	top:5em;
+	left: 0.9em;
+}
+
+.porteria2{
+	position: absolute;
+	width: 15%;
+	height: 50%;
+	border: 0.3em solid white; 
+	top:5em;
+	left: 35.8em;
+}
+.balon1 {
+	position: absolute;
+    width: 18px;
+    height: 18px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    left: 7em;
+    top:5.2em;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+.balon2 {
+	position: absolute;
+    width: 18px;
+    height: 18px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    left: 23em;
+    top:2.7em;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+.balon3 {
+	position: absolute;
+    width: 18px;
+    height: 18px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    left: 34.4em;
+    top:14.3em;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+
+/*ESTILO CUADRO 1*/
+
+.rojo{
+	position: relative;
+	width: 30em; 
+    height: 30em; 
+    background: red;
+    top:15em;
+    left: 25em;
+}
+
+.morado{
+	position: absolute;
+	width: 50%; 
+    height: 50%; 
+    background: purple;
+    top:25%;
+    left: 25%;
+}
+.amarillo{
+	position: absolute;
+	width: 50%; 
+    height: 50%; 
+    background: yellow;
+    
+}
+
+/*ESTILO CUADRO 2*/
+.azul{
+	position: relative;
+	width: 30em; 
+    height: 30em; 
+    background: blue;
+    top:20em;
+    left: 25em;
+}
+
+.verde{
+	position: absolute;
+	width: 50%; 
+    height: 50%; 
+    background: green;
+    top:25%;
+    left: 25%;
+}
+.negro{
+	position: absolute;
+	width: 25%; 
+    height: 25%; 
+    background: black;
+    
+}
+/*ESTILO TRIPTICO*/
+.triptico{
+	position: relative;
+	width: 45%;
+	border:0.1em solid black;
+	height: 30em;
+	top: 25em;
+	left: 20em;
+}
+.membrete{
+	width: 100%;
+	height: 6%;
+	border-bottom:0.1em solid black;
+	background-color:  #f9a91a;
+	overflow: hidden;
+}
+.izquierda{
+	border-right: 0.1em solid black;
+	width: 25%;
+	height: 89%;
+	float: left;
+}
+.medio{
+	border-right: 0.1em solid black;
+	width: 48%;
+	height: 89%;
+	float: left;
+}
+.derecha{
+	width: 25%;
+	height:89%;
+	float: left;
+	position: relative;
+}
+.pie{
+	border-top: 0.1em solid black;
+	border-bottom: 0.1em solid black;
+	width: 100%;
+	height: 5%;
+	clear: both;
+	background-color: #f9a91a;
+}
+.membrete h1{
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0em;
+	font-weight:lighter;
+	padding-top: .2em;
+}
+.entre-parrafos{
+	margin-bottom: 2em;
+}
+.medio .entre-parrafos{
+	margin-bottom: 2em;
+}
+.medio p{
+	margin: 0 2.5em;
+}
+#img2{
+	
+	margin-top: 1em;
+	height: 7em;
+}
+#img1{
+	position: absolute;
+	height: 8em;
+	top:18.5em;
+}
+
+.pie p{
+	text-align: center !important;
+	font-weight: bold;
+}
+
+img{
+	width: 100%;
+}
+.triptico p{	
+	font-size: 15px;
+	margin: 0 1em;
+	text-align: justify;
+}
+h4, h2{
+	text-align: center;
+}
+h2{
+	margin-top: 2em;
+}
+/*ESTILO MENU*/
+.menu{
+	position: relative;
+	top:29em;
+	height: 15em;
+}
+.submenu{
+	width: 19.6%;
+	height: 100%;
+	background-color: #D8D8D8;
+	float: left;
+	margin-right: .4%;
+	box-shadow: 2px 2px 5px #999;
+	text-align: center;
+	color:grey;
+}
+
+
+.fa-paper-plane-o, .fa-diamond, .fa-coffee,
+.fa-cutlery, .fa-heart-o{
+	font-size: 2em;
+	margin-top: .5em;
+}
+.menu h4, .menu h6{
+	font-family: 'Poppins', sans-serif;
+}
+.menu p{
+	font-size: .65em;
+	font-family: 'Nunito', sans-serif;
+}
+
+.mouse:hover{
+	color: #D8D8D8;
+	background-color: #FFFFFF;
+}
+
+/*ESTILO EJEMPLOS*/
+#ejemplos{
+	position: relative;
+	top:28em;
+}
+.ejemplo-a {
+	position: relative;
+	top:3em;
+	display: inline-block;
+}
+#box_1 { 
+	position: static;
+	width: 200px; 
+	height: 200px; 
+	background: #ee3e64;
+}
+#box_2 { 
+	position: static; 
+	width: 200px; 
+	height: 200px; 
+	background: #44accf; 
+}
+#box_3 { 
+	position: static; 
+	width: 200px; 
+	height: 200px; 
+	background: #b7d84b;
+}
+
+.ejemplo-b{
+	position: relative;
+	top:3em;
+	display: inline-block;
+}
+#box_11 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #ee3e64; 
+}
+#box_21 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #44accf; 
+} 
+#box_31 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #b7d84b; 
+}
+
+.ejemplo-c{
+	position: relative;
+	top:6em;
+}
+#box_12 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #ee3e64; 
+}
+#box_22 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #44accf; 
+	left: 200px;
+} 
+#box_32 { 
+	position: relative; 
+	width: 200px; 
+	height: 200px; 
+	background: #b7d84b; 
+}
+
+.ejemplo-d{
+	position: relative;
+	top:9em;
+}
+
+.ejemplo-e{
+	position: relative;
+	top:15em;
+	height: 30em;
+}
+
+.ejemplo-e p{
+	text-align: center;
+}
+
+#box_13 { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 200px; 
+	height: 200px; 
+	background: #ee3e64; 
+} 
+#box_23 { 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	width: 200px; 
+	height: 200px; 
+	background: #44accf; 
+} 
+#box_33 { 
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	width: 200px; 
+	height: 200px; 
+	background: #b7d84b; 
+} 
+#box_43 { 
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	width: 200px; 
+	height: 200px; 
+	background: #ebde52; 
+}
